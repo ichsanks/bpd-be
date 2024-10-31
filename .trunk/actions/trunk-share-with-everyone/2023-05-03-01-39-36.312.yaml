@@ -1,0 +1,14 @@
+action_id: trunk-share-with-everyone
+date: 2023-05-03 01:39:36
+run: trunk config share --notify --allow-daemon-start=false
+run_from: ""
+trigger: schedule 24h
+result:
+  exit_code: 127
+  out: ""
+  err: "trunk-share-with-everyone: trunk: command not found\n"
+timestamp: 1683077976
+full_timestamp:
+  nanos: 312416000
+  seconds: 1683077976
+trunk_version: 1.7.0
